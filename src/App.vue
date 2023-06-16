@@ -2,7 +2,6 @@
   <div id="app">
     <NavbarC />
     <ListadoC :items="listado" />
-    <!-- <LoginC /> -->
     <CarritoC />
     <FooterC />
   </div>
@@ -13,7 +12,6 @@ import NavbarC from "./components/NavbarC.vue";
 import ListadoC from "./components/ListadoC.vue";
 import CarritoC from "./components/CarritoC.vue";
 import FooterC from "./components/FooterC.vue";
-// import LoginC from "./components/LoginC.vue";
 
 import items from "@/assets/json/items.json";
 
@@ -24,7 +22,6 @@ export default {
     ListadoC,
     CarritoC,
     FooterC,
-    // LoginC,
   },
   data() {
     return {

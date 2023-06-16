@@ -36,7 +36,7 @@
           <strong class="mr-auto">Total: </strong>
           {{ totalPrice | toPrice }}
 
-          <b-button @click="buy" id="buy-btn">Pagar</b-button>
+          <b-button @click="buy" id="buy-btn">CheckOut</b-button>
         </div>
       </template>
     </b-sidebar>
@@ -72,7 +72,7 @@ export default {
       item.q == 0 ? (item.q = 0) : item.q--;
     },
     buy() {
-      console.log("iniciar compra...");
+      console.log("Compra");
     },
   },
 };
