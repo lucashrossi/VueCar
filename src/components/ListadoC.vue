@@ -15,7 +15,7 @@
         </b-card-text>
 
         <b-button v-b-modal.modal-info v-on:click="showInfo(item)">
-          info
+          Mas
         </b-button>
         <b-button v-on:click="addToCart(item)">
           <b-icon icon="cart-plus" class="nav-icon"></b-icon>
@@ -74,12 +74,12 @@ export default {
 }
 
 .card {
-  border-radius: 5%;
+  border-radius: 45%;
 }
 
 .card-img-top {
-  border-top-left-radius: 5%;
-  border-top-right-radius: 5%;
+  border-top-left-radius: 15%;
+  border-top-right-radius: 15%;
   max-height: 15rem;
   max-width: 100%;
 }

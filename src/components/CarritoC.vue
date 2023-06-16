@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-sidebar id="sidebar-cart" title="Carrito" right shadow>
+    <b-sidebar id="sidebar-cart" title="" right shadow>
       <div v-if="quantity == 0" class="px-3 py-2">
         <p>No hay items en su carrito</p>
       </div>
@@ -54,20 +54,14 @@ export default {
     return {
       items: [
         {
-          name: "Fugazzeta con jamón",
-          img: "https://images.deliveryhero.io/image/pedidosya/products/87d1409b-f779-4db8-8262-947f2ed22a32.jpg?quality=90&width=1280",
-          price: 4800,
+          name: "Prod1",
+          img: "",
+          price: 10,
           q: 1,
-        },
-        {
-          name: "Pizza de pepperoni",
-          img: "https://images.deliveryhero.io/image/pedidosya/products/34281550-aeef-4317-870f-124be3862017.jpg?quality=90&width=1280",
-          price: 4160,
-          q: 2,
-        },
+        }
       ],
-      quantity: 2,
-      totalPrice: 0,
+      quantity: 1,
+      totalPrice: 10,
     };
   },
   methods: {

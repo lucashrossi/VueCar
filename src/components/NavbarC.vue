@@ -2,14 +2,14 @@
   <div>
     <b-navbar class="navbar navbar-expand-lg fixed-top navbar-scroll">
       <div class="container-fluid">
-        <b-navbar-brand href="#">Programa</b-navbar-brand>
+        <b-navbar-brand href="#"></b-navbar-brand>
 
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
         <b-collapse id="nav-collapse" is-nav>
          
 
-          <b-navbar-nav class="">
+          <b-navbar-nav class="m-auto">
           
 
             <b-dropdown right no-caret>
